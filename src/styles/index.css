@@ -1,12 +1,16 @@
-
-/* 
-
-    You can write your own styles here...
+.row {
+    background-color: blue;
+}
+.card {
+    border-color: gray;
+    color:white;
+    background-color: black;
+    width: 100px;
+    height :150px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    padding: 10px;
+    margin: 15px
+}
+.card-title {
+    font-size: 90px;
+}
